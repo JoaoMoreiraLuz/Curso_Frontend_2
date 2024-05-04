@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade BS</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="lib/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-4">
+        <div class="container">
+            <a href="#" class="navbar-brand m-0">
+                <img src="imgs/logo.png" width="150px" alt="">
+            </a>
+            <button id="hamburguer" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="navegacao">
+                <ul class="nav nav-pills pt-2 d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#nossoTrabalho" class="nav-link">Nosso trabalho</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">Produtos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">Contatos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <div class="bg-home">
+            <div class="container">
+                <section id="home" class="d-flex align-items-center">
+                    <div class="row w-100">
+                        <div class="col-md-3 text-center text-md-start" id="sobre">
+                            <h2 class="text-colored fw-bold section-title">Sobre nós</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsum ut quo </p>
+                            <ul class="social-links p-0">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="text-colored fw-400 social-icon bi bi-instagram hover"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="text-colored fw-400 social-icon bi bi-twitter me-1 ms-1 hover"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="text-colored fw-400 social-icon bi bi-facebook me-1 hover"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <section class="pt-5 pb-5">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel1">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="imgs/2.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imgs/pexels-jethro-c-703137695-18382824.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imgs/pexels-maxderoin-249203.jpg" class="w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel1" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row pt-4" id="nossoTrabalho">
+                    <h2 class="text-colored fw-bold mb-4">Nosso trabalho</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="imgs/nossotrabalho/pexels-ekrulila-2255355.jpg" class="d-block w-100 rounded mb-2">
+                        <h3 class="text-colored fw-bold">Conforto</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi possimus dicta suscipit doloribus vitae </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imgs/nossotrabalho/pexels-fox-58267-3829230.jpg" class="d-block w-100 rounded mb-2">
+                        <h3 class="text-colored fw-bold">Customize do seu jeito</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi possimus dicta suscipit doloribus vitae </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imgs/nossotrabalho/pexels-jethro-c-703137695-18337017.jpg" class="d-block w-100 rounded mb-2">
+                        <h3 class="text-colored fw-bold">Ampla seleção de switchs</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi possimus dicta suscipit doloribus vitae </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5" id="produtos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="fw-bold mb-4 text-colored">Nossos produtos</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-3">
+                        <nav class="nav nav-pills flex-column nav-modelos" role="tablist">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#custom" class="nav-link text-start" aria-selected="false" role="tab" tabindex="-1">Teclados customizados</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#ergonomico" class="nav-link text-start" aria-selected="false" role="tab" tabindex="-1">Teclados ergonômicos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#switches" class="nav-link text-start" aria-selected="false" role="tab" tabindex="-1">Teclados com múltiplos switches</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-9">
+                        <div class="tab-content">
+                            <div class="tab-pane" id="custom" role="tabpanel">
+                                <h5 class="text-colored fw-bold text-center pt-3 pb-3">Customize seu teclado em nosso aplicativo</h5>
+                                <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel2">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="3000">
+                                            <img src="imgs/abas/pexels-cottonbro-5138188.jpg" class="w-100" alt="">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="3000">
+                                            <img src="imgs/abas/pexels-fox-58267-3829226.jpg" class="w-100" alt="">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="3000">
+                                            <img src="imgs/abas/pexels-hrvvv1994-6253376.jpg" class="w-100">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="ergonomico" role="tabpanel">
+                                <h5 class="text-colored fw-bold text-center pt-3 pb-3">Teclados ergonômicos</h5>
+                                <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel3">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="3000">
+                                            <img src="https://i.pcmag.com/imagery/reviews/07e8ep4lVwmFuzRH2jmPNRB-1..v1590509350.jpg" class="w-100" alt="">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="3000">
+                                            <img src="https://i.ytimg.com/vi/g4QFnW9pUO8/maxresdefault.jpg" class="w-100" alt="">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="3000">
+                                            <img src="https://www.zdnet.com/a/img/resize/bfdc8a4d02e9498eaa25b65100828a4b42f43666/2022/03/24/2dca64bf-636e-49a5-9f88-4f493305f745/dygma-raise-hero-2.jpg?auto=webp&width=1280" class="w-100">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="switches" role="tabpanel">
+                                <h5 class="text-colored fw-bold text-center pt-3 pb-3">Escolha seu switch para cada tecla!</h5>
+                                <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel4">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="3000">
+                                            <img src="https://hardwarecanucks.com/wp-content/uploads/Razer_Keyboard_Switches-0.jpg" class="w-100" alt="">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="3000">
+                                            <img src="https://i.pcmag.com/imagery/articles/044a4pYZNk91QwMe8l3DSM1-5..v1708624706.jpg" class="w-100" alt="">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="3000">
+                                            <img src="https://i.pcmag.com/imagery/reviews/00hKFQ1dkp5PZSZ9Ex7O08q-1..v1697482402.jpg" class="w-100">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="fw-bold text-colored">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label secondary-color fw-bold">Seu nome</label>
+                                <input type="text" id="nome" class=" form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label secondary-color fw-bold">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label secondary-color fw-bold">Seu telefone (opiconal)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label secondary-color fw-bold">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold mb-5">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row mt-4">
+                            <h3 class="text-colored">Endereço</h3>
+                            <p>
+                                Av. Exemplo, teste
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p>Desenvolvido por João Gustavo || Curso frontend EBAC 2024</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

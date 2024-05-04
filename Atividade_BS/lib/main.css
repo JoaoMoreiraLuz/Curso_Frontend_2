@@ -1,0 +1,87 @@
+* {
+    font-family: "raleway", sans-serif ;
+}
+
+body {
+    background-color: rgb(24, 24, 24);
+}
+
+.navbar {
+    background-color: black;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: rgb(124, 43, 199);
+}
+
+#cabecalho .nav .nav-link {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: aliceblue;
+    padding: .2em;
+}
+
+.bg-home {
+    background-image: url(https://images.pexels.com/photos/3335697/pexels-photo-3335697.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#home {
+    height: 100vh;
+}
+
+.text-colored {
+    color: rgb(124, 43, 199);
+}
+
+.secondary-color {
+    color: aliceblue;
+}
+
+button btn {
+    background-color: aliceblue;
+}
+
+p {
+    color: white;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#contato button {
+    background-color: aliceblue;
+}
+
+.nav-modelos .nav-link {
+    color: #ffffff;
+}
+
+.nav-modelos .nav-link.active {
+    background-color: rgb(124, 43, 199);
+}
+
+.nav-modelos .nav-link:hover{
+    font-weight: bold;
+}
+
+footer {
+    background-color: #000000;
+    color: lightgray;
+    padding: 24px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
