@@ -26,7 +26,7 @@ body {
 
 .bg-home {
     background-image: url(https://images.pexels.com/photos/3335697/pexels-photo-3335697.jpeg);
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 
